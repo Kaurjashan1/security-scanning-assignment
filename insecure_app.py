@@ -6,7 +6,7 @@ import hashlib
 
 # VULNERABILITY: Hardcoded credentials (CWE-798)
 DB_PASSWORD = "admin123"
-SECRET_KEY = "hardcoded_secret_key_do_not_use"
+SECRET_KEY = "hardcoded_secret_key_do_not_use!"
 API_KEY = "sk-1234567890abcdef"
 
 # VULNERABILITY: SQL Injection (CWE-89 / OWASP A03)
